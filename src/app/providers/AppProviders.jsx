@@ -1,0 +1,12 @@
+import React from 'react';
+import { ThemeProvider } from './ThemeProvider';
+
+export function AppProviders({ children }) {
+  return (
+    <ThemeProvider>
+      {children}
+    </ThemeProvider>
+  );
+}
+
+export default AppProviders;

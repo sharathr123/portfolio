@@ -1,0 +1,56 @@
+export const appConfig = {
+  developer: {
+    name: 'Sharath R',
+    shortName: 'Sharath',
+    initials: 'SR',
+    title: 'React Native Developer',
+    role: 'React Native Developer (Android & iOS)',
+    experienceYears: '3.5',
+    experienceLabel: '3.5+ Years Experience',
+    tagline: 'Building Mobile Experiences That Make a Difference.',
+    bio: "React Native developer with 3.5 years of experience building and optimizing mobile applications for Android and iOS. Skilled in creating modular UI components, integrating REST APIs, implementing real-time features, and improving overall app performance. Experienced in Play Store and App Store release processes, and in supporting junior developers with code reviews, debugging, and best practices.",
+    location: 'Bangalore, India',
+    status: 'Actively Building Production Mobile Systems',
+    company: 'Infanion Software Solutions',
+    companyFull: 'Infanion Software Solutions India Pvt. Ltd.',
+    currentRole: 'Associate Developer',
+    period: '04/2023 – Present',
+    education: {
+      degree: 'Bachelor of Engineering',
+      institution: 'Vivekananda College of Engineering & Technology',
+      location: 'Puttur, India',
+      period: '08/2016 – 10/2020',
+      cgpa: '7.79',
+    },
+    languages: [
+      { name: 'Kannada', level: 'Native Speaker' },
+      { name: 'English', level: 'High Proficient' },
+    ],
+    focus: [
+      'React Native (Android & iOS)',
+      'Redux & Context API',
+      'REST APIs & Socket.io',
+      'FlatList & Performance Optimization',
+      'CodePush (OTA Updates)',
+      'Play Store & App Store Releases',
+    ],
+  },
+  social: {
+    github: 'https://github.com/Sharath-R-dev',
+    linkedin: 'https://www.linkedin.com/in/sharathr185',
+    email: 'sharathr185@gmail.com',
+    phone: '+918073295660',
+    phoneDisplay: '+91 80732 95660',
+  },
+  apps: {
+    mycorePlayStore: 'https://play.google.com/store/apps/details?id=com.infanion.absolutecore',
+    mycoreAppStore: 'https://apps.apple.com/be/app/mycore/id6572297951?l=nl',
+    maxiconPlayStore: 'https://play.google.com/store/apps/details?id=com.infanion.maxicon',
+    maxiconAppStore: 'https://apps.apple.com/nl/app/maxicon/id6743873273',
+  },
+  meta: {
+    siteTitle: 'Sharath R | Associate Developer at Infanion | React Native (iOS & Android)',
+    siteDescription: 'Portfolio of Sharath R, Associate Developer at Infanion Software Solutions with 3.5 years experience building production Android and iOS apps.',
+    author: 'Sharath R',
+  }
+};

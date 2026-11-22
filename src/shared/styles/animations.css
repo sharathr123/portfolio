@@ -1,0 +1,62 @@
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.5deg);
+  }
+}
+
+@keyframes pulseSubtle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.85;
+    transform: scale(0.98);
+  }
+}
+
+@keyframes shimmerEffect {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-pulse-subtle {
+  animation: pulseSubtle 3s ease-in-out infinite;
+}
+
+.glass-surface {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(232, 229, 223, 0.8);
+}
+
+.dark .glass-surface {
+  background: rgba(34, 34, 34, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(54, 54, 54, 0.8);
+}
+
+.pill-purple {
+  background-color: var(--accent-purple-light);
+  color: var(--accent-purple);
+  border: 1px solid rgba(102, 80, 164, 0.15);
+}
+
+.pill-teal {
+  background-color: var(--accent-teal-light);
+  color: var(--accent-teal);
+  border: 1px solid rgba(37, 141, 139, 0.15);
+}
